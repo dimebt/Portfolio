@@ -1,13 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400|Playfair+Display|Roboto+Mono:100,300,400|Signika+Negative:300');
+
+* {
+   box-sizing: bord er-box;
+   margin: 0;
+}
+
 body, html {
-  margin: 0;
-  padding: 0;
+   padding: 0;
+   background-color: black;
 }
 
 video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: auto;
+   width: 100%;
+}
+
+/*
+--- Header section
+*/
+
+.container {
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+   font-weight: 400;
+   font-size: .8em;
+   position: absolute;
+   width: 80vw;
+   height: 5em;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   padding-top: 1em;
+}
+
+.headerLeft {
+   float: left;
+   width: 48%;
+   display: inline-block;
+}
+.headerLeft ul {
+   padding: 0;
+ }
+ .headerLeft li {
+   padding-left: .4em;
+   padding-top: .4em;
+   padding-right: 1em;
+   display: inline-block;
+   border-left: 1px solid white;
+   border-color: rgba(255, 255, 255, 0.1);
+ }
+ .headerLeft img {
+   display: block;
+   padding-bottom: .8em;
+   width: 2rem;
+   opacity: 0.5;
+ }
+ .headerLeft a {
+   color: #bcbcbc;
+   text-decoration: none;
+ }
+ .headerLeft a:hover,
+ .headerLeft a:focus {
+   color: #fff;
+ }
+
+
+ .headerRight {
+   float: right;
+   width: 48%;
+   display: inline-block;
+ }
+ .headerRight ul {
+   float: right;
+}
+ .headerRight li {
+   padding-left: .4em;
+   padding-top: .4em;
+   padding-right: 1em;
+   display: inline-block;
+}
+ .headerRight img {
+  display: block;
+  padding-bottom: .8em;
+
+  opacity: 0.75;
+}
+ .headerRight a {
+   text-decoration: none;
+}
+
+
+
+
+/*
+--- Main ---
+*/
+
+.main {
+  display: inline-block;
+  margin-top: 2em;
+  width: 80vw;
   height: auto;
-  width: 100%;
+}
+
+.leftBorder {
+  position: relative;
+  width: 38%;
+  height: 18em;
+  display: inline-block;
+}
+.leftBorderLine {
+  display: block;
+  margin-top: 9em;
+  height: 2px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+}
+
+.profilePhoto {
+  position: relative;
+  width: 22%;
+  height: 18em;
+  display: inline-block;
+  text-align: center;
+}
+
+.rightBorder {
+  position: relative;
+  width: 38%;
+  height: 18em;
+  display: inline-block;
+}
+.rightBorderLine {
+  margin-top: 9em;
+  height: 2px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+
+}
+
+
+.title {
+  display: block;
+  width: 80vw;
+  height: auto;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+}
+.title h1 {
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titleLine {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .8em;
+  margin-bottom: auto;
+  height: 2px;
+  width: 5vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+}
+
+.description {
+  display: block;
+  text-align: center;
+  color: white;
+  margin-top: .4em;
+}
+.description h2 {
+  display: inline-block;
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: .4em;
+  vertical-align: middle;
+  padding-bottom: .6em;
+}
+.description h3 {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+
+/*
+--- Navigation ---
+*/
+.navigation {
+  display: block;
+  margin: 4em auto;
+  padding: 1.4em 3em;
+  width: 80vw;
+  height: auto;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2em;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.02);
+  text-align: center;
+}
+.navigation li{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 0 3em;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+.navigation a:hover,
+.navigation a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+
+/*
+--- Personal information
+*/
+
+.personalInfo {
+  display: block;
+  margin: 2em auto;
+  padding: 1.4em 0em;
+  width: 80vw;
+  height: auto;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.4em;
+  color: white;
+  text-align: center;
+}
+
+.info {
+  display: block;
+  width: 34vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 2em 3em;
+  text-align: center;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.codeLineWrapper {
+  display: inline-block;
+}
+.codeLineWrapper h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.4em;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.2em;
+  text-align: left;
+}
+.info h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 8em;
+  display: inline-block;
+  position: relative;
+  padding-left: .4em;
+  padding-right: .4em;
+  vertical-align: top;
+  opacity: 0.2;
+  text-shadow: .1em .1em .1em #333333;
+}
+
+
+/*
+--- Education
+*/
+
+.education {
+  display: block;
+  margin: 2em auto;
+  padding: 1.4em 0em;
+  width: 80vw;
+  height: auto;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.4em;
+  color: white;
+  text-align: center;
+}
+.reusableBlock {
+  font-size: 1.2em;
+  display: block;
+  width: 40vw;
+  height: auto;
+  margin: 1em auto;
+  padding: 1em 3em;
+  text-align: center;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+.reusableBlock a {
+  text-decoration: none;
+}
+.reusableBlock h5 {
+  font-size: .6em;
+  opacity: 0.5;
+}
+.reusableBlock h6 {
+  font-size: .8em;
+  opacity: 0.9;
+}
+.row {
+  margin-top: 1.4em;
+}
+.rowImage {
+  display: inline-block;
+  width: 60px;
+  height: auto;
+  vertical-align: top;
+  text-align: center;
+}
+
+.textWrapper {
+  display: inline-block;
+  padding-left: 2em;
+  text-align: left;
 }
