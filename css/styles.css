@@ -492,37 +492,111 @@ video {
 
 .info {
   display: block;
-  width: 34vw;
+  margin: 2em auto;
+  padding: 1.4em 0em;
+  width: 80vw;
   height: auto;
-  margin: 0 auto;
-  padding: 2em 3em;
   text-align: center;
   color: white;
   background-color: rgba(255, 255, 255, 0.1);
+}
+@media (min-width: 40rem) {
+  .info {
+    display: block;
+    width: 34vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 2em 3em;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+@media (min-width: 60rem) {
+  .info {
+    display: block;
+    width: 34vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 2em 3em;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 }
 .codeLineWrapper {
   display: inline-block;
 }
 .codeLineWrapper h2 {
   font-family: 'Roboto Mono', monospace;
-  font-size: 1.4em;
+  font-size: .6em;
   font-weight: 300;
   font-style: normal;
   line-height: 1.2em;
   text-align: left;
 }
+@media (min-width: 40rem) {
+  .codeLineWrapper h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.4em;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.2em;
+    text-align: left;
+  }
+}
+@media (min-width: 60rem) {
+  .codeLineWrapper h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.4em;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.2em;
+    text-align: left;
+  }
+}
 .info h3 {
   font-family: 'Playfair Display', serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 8em;
+  font-size: 5em;
   display: inline-block;
   position: relative;
-  padding-left: .4em;
-  padding-right: .4em;
-  vertical-align: top;
+  padding-left: .2em;
+  padding-right: .2em;
+  vertical-align: bottom;
   opacity: 0.2;
   text-shadow: .1em .1em .1em #333333;
+}
+@media (min-width: 40rem) {
+  .info h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 8em;
+    display: inline-block;
+    position: relative;
+    padding-left: .4em;
+    padding-right: .4em;
+    vertical-align: top;
+    opacity: 0.2;
+    text-shadow: .1em .1em .1em #333333;
+  }
+}
+@media (min-width: 60rem) {
+  .info h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 8em;
+    display: inline-block;
+    position: relative;
+    padding-left: .4em;
+    padding-right: .4em;
+    vertical-align: top;
+    opacity: 0.2;
+    text-shadow: .1em .1em .1em #333333;
+  }
 }
 
 
