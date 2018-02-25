@@ -46,12 +46,28 @@ video {
    padding: 0;
  }
  .headerLeft li {
+   font-size: .3em;
    padding-left: .4em;
    padding-top: .4em;
    padding-right: 1em;
    display: inline-block;
    border-left: 1px solid white;
    border-color: rgba(255, 255, 255, 0.1);
+ }
+ @media (min-width: 60rem) {
+   .headerLeft li {
+     font-size: 1em;
+   }
+ }
+ @media (min-width: 70rem) {
+   .headerLeft li {
+     font-size: 1em;
+   }
+ }
+ @media (min-width: 90rem) {
+   .headerLeft li {
+     font-size: 1em;
+   }
  }
  .headerLeft img {
    display: block;
@@ -546,6 +562,15 @@ video {
   font-style: normal;
   line-height: 1.2em;
   text-align: left;
+}
+.codeLineWrapper h2 a {
+  text-decoration: none;
+  color: #db2c38;
+}
+
+.codeLineWrapper h2 a:hover,
+.codeLineWrapper h2 a:focus {
+  color: #db2c38;
 }
 @media (min-width: 40rem) {
   .codeLineWrapper h2 {
