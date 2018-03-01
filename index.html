@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My Portfolio - Dimitar Stefanovski</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 <video poster="video/poster.png" autoplay="true" loop>
@@ -78,7 +80,7 @@
   </nav>
   </div>
   <div class="personalInfo">
-    <h1>PERSONAL INFORMATION</h1>
+    <h1 id="info">PERSONAL INFORMATION</h1>
     <div class="titleLine"></div>
   </div>
   <div class="info">
@@ -95,21 +97,9 @@
     <h3>}</h3>
   </div>
   <div class="education">
-    <h1>EDUCATION</h1>
+    <h1 id="education">EDUCATION</h1>
     <div class="titleLine"></div>
     <div class="reusableBlock">
-      <div class="row">
-        <div class="rowImage">
-          <a target="_blank" href="http://gorginaumov.edu.mk/">
-            <img border="0" alt="" src="img/education/GNaumov.png">
-          </a>
-        </div>
-        <div class="textWrapper">
-          <h4>Technical High School "Gjorgi Naumov", Bitola Macedonia</h4>
-          <h5>2002 - 2005 </h5>
-          <h6>Electrotehnician for computer technology and automation</h6>
-        </div>
-      </div>
       <div class="row">
         <div class="rowImage">
           <a target="_blank" href="http://www.tfb.uklo.edu.mk/">
@@ -123,57 +113,33 @@
           <h6>Computer Science degree</h6>
         </div>
       </div>
+      <div class="row">
+        <div class="rowImage">
+          <a target="_blank" href="http://gorginaumov.edu.mk/">
+            <img border="0" alt="" src="img/education/GNaumov.png">
+          </a>
+        </div>
+        <div class="textWrapper">
+          <h4>Technical High School "Gjorgi Naumov", Bitola Macedonia</h4>
+          <h5>2002 - 2005 </h5>
+          <h6>Electrotehnician for computer technology and automation</h6>
+        </div>
+      </div>
     </div>
   </div>
   <div class="education">
-    <h1>WORK EXPERIANCE</h1>
+    <h1 id="work">WORK EXPERIANCE</h1>
     <div class="titleLine"></div>
     <div class="reusableBlock">
       <div class="row">
         <div class="rowImage">
-          <a target="_blank" href="">
-            <img border="0" alt="" src="img/work/FREELANCE-icon.png">
-          </a>
-        </div>
-        <div class="textWrapper">
-          <h4>Freelance Developer</h4>
-          <h5>2005 - 2008</h5>
-          <h6>Freelance worker</h6>
-        </div>
-      </div>
-      <div class="row">
-        <div class="rowImage">
           <a target="_blank" href="http://www.elem.com.mk/">
             <img border="0" alt="" src="img/work/elem.png">
           </a>
         </div>
         <div class="textWrapper">
           <h4>JSC Macedonian Power Plants, Subsidary "REK Bitola", Macedonia</h4>
-          <h5>2008 - 2010</h5>
-          <h6>IT Tehnician</h6>
-        </div>
-      </div>
-      <div class="row">
-        <div class="rowImage">
-          <a target="_blank" href="http://www.elem.com.mk/">
-            <img border="0" alt="" src="img/work/elem.png">
-          </a>
-        </div>
-        <div class="textWrapper">
-          <h4>JSC Macedonian Power Plants, Subsidary "REK Bitola", Macedonia</h4>
-          <h5>2010 - 2012</h5>
-          <h6>Senior Software Developer</h6>
-        </div>
-      </div>
-      <div class="row">
-        <div class="rowImage">
-          <a target="_blank" href="http://www.elem.com.mk/">
-            <img border="0" alt="" src="img/work/elem.png">
-          </a>
-        </div>
-        <div class="textWrapper">
-          <h4>JSC Macedonian Power Plants, Subsidary "REK Bitola", Macedonia</h4>
-          <h5>2012 - 2014</h5>
+          <h5>2016 - Present</h5>
           <h6>Head Engineer for Software Development</h6>
         </div>
       </div>
@@ -197,14 +163,50 @@
         </div>
         <div class="textWrapper">
           <h4>JSC Macedonian Power Plants, Subsidary "REK Bitola", Macedonia</h4>
-          <h5>2016 - Present</h5>
+          <h5>2012 - 2014</h5>
           <h6>Head Engineer for Software Development</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="rowImage">
+          <a target="_blank" href="http://www.elem.com.mk/">
+            <img border="0" alt="" src="img/work/elem.png">
+          </a>
+        </div>
+        <div class="textWrapper">
+          <h4>JSC Macedonian Power Plants, Subsidary "REK Bitola", Macedonia</h4>
+          <h5>2010 - 2012</h5>
+          <h6>Senior Software Developer</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="rowImage">
+          <a target="_blank" href="http://www.elem.com.mk/">
+            <img border="0" alt="" src="img/work/elem.png">
+          </a>
+        </div>
+        <div class="textWrapper">
+          <h4>JSC Macedonian Power Plants, Subsidary "REK Bitola", Macedonia</h4>
+          <h5>2008 - 2010</h5>
+          <h6>IT Tehnician</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="rowImage">
+          <a target="_blank" href="">
+            <img border="0" alt="" src="img/work/FREELANCE-icon.png">
+          </a>
+        </div>
+        <div class="textWrapper">
+          <h4>Freelance Developer</h4>
+          <h5>2005 - 2008</h5>
+          <h6>Freelance worker</h6>
         </div>
       </div>
     </div>
   </div>
   <div class="education">
-    <h1>CERTIFICATES</h1>
+    <h1 id="cert">CERTIFICATES</h1>
     <div class="titleLine"></div>
     <div class="reusableBlock">
       <div class="row">
@@ -213,7 +215,7 @@
         </a>
         <div class="textWrapper">
           <h4>Oracle Database 10G: Administration Workshop I</h4>
-          <h5>2018 Bitola, Macedonia</h5>
+          <h5>2008 Bitola, Macedonia</h5>
           <h6>Trainer: Gorazd Vidmar (Croatia)</h6>
         </div>
       </div>
@@ -225,7 +227,7 @@
         </div>
         <div class="textWrapper">
           <h4>Oracle 10G R3: Java Programming </h4>
-          <h5>2018 Bitola, Macedonia</h5>
+          <h5>2008 Bitola, Macedonia</h5>
           <h6>Trainer: Dalibor Blazevic (Slovenia)</h6>
         </div>
       </div>
@@ -254,7 +256,7 @@
     </div>
   </div>
   <div class="education">
-    <h1>PROJECTS</h1>
+    <h1 id="projects">PROJECTS</h1>
     <div class="titleLine"></div>
     <div class="reusableBlock">
       <div class="row">
