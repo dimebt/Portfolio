@@ -1,0 +1,164 @@
+﻿[
+    {
+        "name": "FMB001",
+        "description": "Advanced Plug and Track real-time tracking terminal with GNSS, GSM and Bluetooth connectivity. ",
+        "url": "https://wiki.teltonika.lt/view/FMB001",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/0/0a/FMB001_00_demo.png/300px-FMB001_00_demo.png"
+    },
+    {
+        "name": "FMB010",
+        "description": "An easy Plug and Track real-time tracking terminal with GNSS, GSM and Blue-tooth connectivity. ",
+        "url": "https://wiki.teltonika.lt/view/FMB010",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/7/73/FMB010_00_demo.png/300px-FMB010_00_demo.png"
+    },
+    {
+        "name": "FMB110",
+        "description": "GNSS/GSM/Blue-tooth tracker with internal GNSS/GSM antennas. ",
+        "url": "https://wiki.teltonika.lt/view/FMB110",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/5/5c/FMB110_00.png/300px-FMB110_00.png"
+    },
+    {
+        "name": "FMB120",
+        "description": "GNSS/GSM/Blue-tooth tracker with internal GNSS/GSM antennas and internal battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMB120",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/c/c9/FMB120_00.png/300px-FMB120_00.png"
+    },
+    {
+        "name": "FMB964",
+        "description": "Special and smart tracker with wide power supply range and high capacity internal Li-ion battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMB964",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/5/59/Fmb964.png/300px-Fmb964.png"
+    },
+    {
+        "name": "FMT100",
+        "description": "Special and small waterproof GNSS tracker with built-in accelerometer and gyroscope. ",
+        "url": "https://wiki.teltonika.lt/view/FMT100",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/5/5e/FMT100-1-demo.png/300px-FMT100-1-demo.png"
+    },
+    {
+        "name": "MTB100",
+        "description": "Smart motorbike tracker with Blue-tooth and internal backup battery.",
+        "url": "https://wiki.teltonika.lt/view/MTB100",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/7/7c/MTB100.png/300px-MTB100.png"
+    },
+    {
+        "name": "FMB122",
+        "description": "GNSS/GSM/Bluetooth tracker with external GNSS, internal GSM antennas and internal battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMB122",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/b/b7/FMB122_00.png/300px-FMB122_00.png"
+    },
+    {
+        "name": "FMB125",
+        "description": "GNSS/GSM/Blue-tooth tracker with external GNSS, internal GSM antennas, RS232, RS485 interfaces and internal battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMB125",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/6/62/FMB125_00.png/300px-FMB125_00.png"
+    },
+    {
+        "name": "FM3001",
+        "description": "Advanced Plug and Track real-time tracking terminal with GNSS, 3G and Blue-tooth connectivity. ",
+        "url": "https://wiki.teltonika.lt/view/FM3001",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/a/ad/FM3001_00_demo.png/300px-FM3001_00_demo.png"
+    },
+    {
+        "name": "FM3612",
+        "description": "Advanced 3G tracker with internal high gain GNSS and 3G antennas, internal backup battery.",
+        "url": "https://wiki.teltonika.lt/view/FM3612",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/c/c7/Fm3612.png/370px-Fm3612.png"
+    },
+    {
+        "name": "FM3622",
+        "description": "Small and professional tracker with external high gain GNSS and 3G antennas, internal backup battery. ",
+        "url": "https://wiki.teltonika.lt/view/FM3622",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/e/e9/Fm3622.png/230px-Fm3622.png"
+    },
+    {
+        "name": "FM36M1",
+        "description": "Special NB-IoT and LTE CATM1 tracker with high gain GNSS and LTE/GSM antennas, internal backup battery.",
+        "url": "https://wiki.teltonika.lt/view/FM36M1",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/a/ab/FM36M1.png/300px-FM36M1.png"
+    },
+    {
+        "name": "FM6300",
+        "description": "Heavy transport tracking device on 3G networks. ",
+        "url": "https://wiki.teltonika.lt/view/FM6300",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/9/92/FM6300_00_demo.png/230px-FM6300_00_demo.png"
+    },
+    {
+        "name": "FM6320",
+        "description": "Heavy transport tracking device on 3G networks. ",
+        "url": "https://wiki.teltonika.lt/view/FM6320",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/5/5e/Fm6320.png/230px-Fm6320.png"
+    },
+    {
+        "name": "FMA110",
+        "description": "Small and professional tracker with internal high gain GNSS and GSM antennas. ",
+        "url": "https://wiki.teltonika.lt/view/FMA110",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/d/d4/Fma110.png/348px-Fma110.png"
+    },
+    {
+        "name": "FMA120",
+        "description": "Small and professional tracker with internal high gain GNSS and GSM antennas, internal backup battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMA120",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/a/a7/Fma120.png/351px-Fma120.png"
+    },
+    {
+        "name": "FMA202",
+        "description": "Small and professional waterproof tracker with internal high gain GNSS/GSM antennas and high capacity internal Ni-MH battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMA202",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/7/76/Fma202.png/400px-Fma202.png"
+    },
+    {
+        "name": "FMA204",
+        "description": "Small and professional waterproof tracker with internal high gain GNSS/GSM antennas and high capacity internal Li-ion battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMA204",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/6/6d/Fma204.png/400px-Fma204.png"
+    },
+    {
+        "name": "FMB130",
+        "description": "GNSS/GSM/Blue-tooth tracker with internal GNSS/GSM antennas and internal battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMB130",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/f/f9/FMB130_00.png/300px-FMB130_00.png"
+    },
+    {
+        "name": "FMB202",
+        "description": "Small and professional waterproof tracker with internal high gain GNSS/GSM antennas, Blue-tooth and high capacity internal Ni-MH battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMB202",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/b/b5/FMB202_00_Demo.png/300px-FMB202_00_Demo.png"
+    },
+    {
+        "name": "FMB204",
+        "description": "Small and professional waterproof tracker with internal high gain GNSS/GSM antennas, Blue-tooth and high capacity internal Li-ion battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMB204",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/9/9b/FMB204_00_Demo.png/300px-FMB204_00_Demo.png"
+    },
+    {
+        "name": "FMB630",
+        "description": "Leading GNSS/GSM/Blue-tooth Terminal for advanced applications. ",
+        "url": "https://wiki.teltonika.lt/view/FMB630",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/e/e1/Fmb630.png/381px-Fmb630.png"
+    },
+    {
+        "name": "FMB640",
+        "description": "Leading GNSS/GSM/Blue-tooth Terminal for advanced applications. ",
+        "url": "https://wiki.teltonika.lt/view/FMB640",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/f/f1/FMB640_00_demo.png/300px-FMB640_00_demo.png"
+    },
+    {
+        "name": "FMB900",
+        "description": "Small and smart tracker with Blue-tooth. ",
+        "url": "https://wiki.teltonika.lt/view/FMB900",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/2/21/FMB900_1_demo.png/300px-FMB900_1_demo.png"
+    },
+    {
+        "name": "FMB920",
+        "description": "Small and smart tracker with Bluetooth and internal backup battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMB920",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/4/4b/FMB920_1_demo.png/300px-FMB920_1_demo.png"
+    },
+    {
+        "name": "FMB962",
+        "description": "Special and smart tracker with wide power supply range and high capacity internal Ni-MH battery. ",
+        "url": "https://wiki.teltonika.lt/view/FMB962",
+        "imageUrl": "https://wiki.teltonika.lt/wikibase/images/thumb/e/e3/Fmb962.png/400px-Fmb962.png"
+    }
+]
