@@ -718,8 +718,9 @@ video {
   opacity: 0.5;
 }
 .reusableBlock h6 {
-  font-size: .8em;
+  font-size: .64em;
   opacity: 0.9;
+  color: darkgray;
 }
 .row {
   margin-top: 1.4em;
