@@ -39,7 +39,7 @@ video {
 
 .headerLeft {
    float: left;
-   width: 48%;
+   width: 30%;
    display: inline-block;
 }
 .headerLeft ul {
@@ -100,7 +100,7 @@ video {
 
  .headerRight {
    float: right;
-   width: 48%;
+   width: 60%;
    display: inline-block;
  }
  @media (min-width: 40rem) {
